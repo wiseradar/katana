@@ -5,6 +5,7 @@ GEM
     guillotine (1.4.0)
       addressable (~> 2.2.6)
       sinatra (~> 1.2.6)
+    newrelic_rpm (3.7.3.204)
     rack (1.5.2)
     redis (3.0.1)
     sinatra (1.2.8)
@@ -17,4 +18,5 @@ PLATFORMS
 
 DEPENDENCIES
   guillotine (= 1.4.0)
+  newrelic_rpm
   redis
