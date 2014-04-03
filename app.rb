@@ -1,5 +1,6 @@
 require 'guillotine'
 require 'redis'
+require 'newrelic_rpm'
 
 module Katana
     class App < Guillotine::App
